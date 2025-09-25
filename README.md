@@ -12,11 +12,33 @@ This repository contains code which reproduces experiments presented in the pape
 
 The main requirements are listed below:
 
-* Tested with NVIDIA RTX A5000 GPU with 24GB of memory
-* Tested with CUDA 12.1 and CuDNN 9.8.2
-* Python 3.10.13
-* Ubuntu 20.04.3
-* PyTorch 2.3.1+cu121
-* torchvision 0.18.1
-* matplotlib 3.8.3
-* Numpy
+* Tested with NVIDIA RTX A6000 GPU 
+* Tested with CUDA 11.8 and cuDNN 8700
+* Python 3.12.3
+* Ubuntu 20.04.6
+* PyTorch 2.3.0+cu118
+* Trainable parameters torch.complex64
+
+## Datasets
+
+* [DIAT-μRadHAR: Radar micro-Doppler Signature dataset for Human Suspicious Activity Recognition](https://ieee-dataport.org/documents/diat-mradhar-radar-micro-doppler-signature-dataset-human-suspicious-activity-recognition)
+* [DIAT-µSAT: micro-Doppler Signature Dataset of Small Unmanned Aerial Vehicle (SUAV)](https://ieee-dataport.org/documents/diat-msat-micro-doppler-signature-dataset-small-unmanned-aerial-vehicle-suav)
+* [MSTAR-10: Ten-Class Satellite Image Dataset](https://www.sdms.afrl.af.mil/index.php?collection=mstar)
+* [EuroSAT: 13 Spectral Bands Sentinel-2 Satellite Image Datasett](https://github.com/phelber/eurosat)
+
+
+## Steps for training and testing
+To train and test the frequency domain complex-valued convolutional neural network, run the following commands:
+
+* python HAR.py
+* python SUAV.py
+* python MSTAR-10.py
+* python EuroSAT.py
+
+
+If you find our work useful, you can cite our paper using:
+```
+@article{,
+  publisher={IEEE}
+}
+```        
