@@ -1,6 +1,6 @@
 Complex-Valued Convolutional Neural Network with Learnable Activation Function for Frequency-Domain Radar Signal Processing
 ===========
-This repository contains code which reproduces experiments presented in the paper [Complex-Valued Convolutional Neural Network with Learnable Activation Function for Frequency-Domain Radar Signal Processing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5215117).
+This repository contains code which reproduces experiments presented in the paper [Complex-Valued Convolutional Neural Network with Learnable Activation Function for Frequency-Domain Radar Signal Processing]().
 <p align="center">
 	<img src="Architecture.png"  width="100%" height="100%">
 	<br>
