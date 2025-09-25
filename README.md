@@ -1,10 +1,10 @@
-Frequency Domain Complex-Valued Convolutional Neural Network
+Complex-Valued Convolutional Neural Network with Learnable Activation Function for Frequency-Domain Radar Signal Processing
 ===========
-This repository contains code which reproduces experiments presented in the paper [Frequency Domain Complex-Valued Convolutional Neural Network](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5215117).
+This repository contains code which reproduces experiments presented in the paper [Complex-Valued Convolutional Neural Network with Learnable Activation Function for Frequency-Domain Radar Signal Processing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5215117).
 <p align="center">
-	<img src="Fig1.png"  width="100%" height="100%">
+	<img src="Architecture.png"  width="100%" height="100%">
 	<br>
-	<em>The block diagram of the Complex-Valued Residual Convolutional Neural Network.</em>
+	<em>The Architecture of the proposed frequency-adaptive complex-valued convolutional neural network.</em>
 </p>
 
 
